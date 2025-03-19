@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating the DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="greeting">Welcome!</h2>
+    <button onclick="change_greeting()">Change Greeting</button>
+    <button onclick="change_background()">Change Background</button><br>
+
+    <input type="text" id="user_input" placeholder="Enter your name">
+    <button onclick="show_name()">Submit</button>
+    <p id="output"></p><br>
+
+    <p>Button Clicked: <span id="count">0</span> times</p>
+    <button onclick="increase_count()">Click Me</button><br>
+
+    <img id="image" src="images/cat.jpg" alt="Picture of a cat standing without purpose" width="300" height="300">
+    <button onclick="change_image()">Change Image</button><br>
+
+    <p id="text">This is a hidden message</p>
+    <button onclick="toggle_text()">Show/Hide</button><br>
+
+    <p id="text_size">Make this text bigger!</p>
+    <button onclick="increase_font_size()">Increase Font Size</button><br>
+
+    <h3 id="title">Original title</h3>
+    <p id="description">This is a paragraph.</p>
+    <button onclick="update_content()">Update Content</button><br>
+
+    <input type="number" id="number_input" placeholder="Enter a number">
+    <button onclick="calculate_square()">Calculate Square</button>
+    <p id="result"></p><br>
+
+    <script src="main.js"></script>
+</body>
+</html>
